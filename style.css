@@ -1,0 +1,640 @@
+*{
+box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham Black';
+    overflow: auto;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    padding-right: 250px;
+    margin: 0;
+}
+.nav_links{
+    display: inline-flex;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+
+    margin: 0;
+   
+    
+   
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 80px;
+    margin-top: 18px;
+}
+.logo11{
+    width: 138px;
+    height: 18px;
+    margin: 15px;
+    padding: 0px;
+    line-height: 16px;
+}
+
+.main{
+    display: flex;
+    width: 1349px;
+    height: 683px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(navy,rgb(19, 19, 19) 90%);
+    
+   overflow: hidden;
+    
+    
+    
+}
+
+
+
+
+
+.classic{
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    display: inline;
+    font-weight: bolder;
+    margin-left: 68px;
+    margin-bottom: 0px;
+    position: relative;
+    left: -20px;
+    top: 245px;
+  
+
+    
+}
+.chrono{
+   
+    margin-left: 66px;
+    margin-bottom: 0;
+    font-weight: 900;
+   
+    position: relative;
+    left: -20px;
+    top: 240px;
+    transition: none 0s ease 0s;
+    
+    
+    
+    
+}
+.classic,.chrono{
+    color: aliceblue;
+    
+   
+}
+.leftSection{
+   
+    align-items: start;
+   
+    
+    
+    margin-left: 80px;
+}
+img{
+    
+    margin-top: -120px;
+    position: static;
+
+
+    
+}
+.main_2{
+    width: 1349px;
+    height: 683px;
+    background: grey;
+
+}
+.watch{
+    
+    margin-left: 550px;
+    
+}
+.link{
+   
+    width: 100px;
+    height: 55px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    border: solid white 3px;
+    color: rgb(0, 0, 0);
+    
+}
+.secondSection{
+    width: 1349px;
+    height: 336px;
+    align-items: center;
+    background-color: #171717;
+    border-color: #262626;
+    border-style: solid none;
+    border-width: 1px 0px;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 16px;
+    padding: 85px 22px;
+    color: white;
+    text-decoration: none;
+    
+}
+.buttons{
+    display: flex;
+    width: 243px;
+    height: 54px;
+    background-color: #171717;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+    flex-basis: calc(20% - 17.6px) ;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    padding: 16px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px 22px 0px 0px;
+    text-decoration: none;
+    
+}
+.buttons:hover,.buttons1:hover{
+    border-color: rgb(0, 26, 255);
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.buttons1{
+    display: flex;
+    width: 243px;
+    height: 54px;
+    background-color: #171717;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+    flex-basis: calc(20% - 17.6px) ;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    padding: 16px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px 22px 0px 260px;
+    text-decoration: none;
+
+}
+.explore h2{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Gotham Black';
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    margin: 0 0 30px 66px;
+}
+.thirdSection{
+    width: 1349px;
+    height: 769px;
+    background-color: #171717;
+    color: #ffffff;
+    line-height: 16px;
+    padding: 70px 22px 0;
+}
+
+.containerBox{
+    display: flex;
+    justify-content: center;
+    padding-right: 90px;
+    padding-top: 50px;
+}
+.imgW{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    width: 235px;
+    height: 352px;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: 100px;
+    opacity: 50%;
+    transition: transform .3s ;
+      
+}
+.imgW p{
+    padding-left: 8px;
+}
+
+.image{
+    
+}
+.imgW:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+    
+    
+}
+p:hover{
+    
+}
+.forthSection{
+    width: 1349px;
+    height: 882px;
+    background:linear-gradient(to top,#ffffff 0%,#ffffff 50%,#171717 50%,#171717 100%);
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+.leftside,.rightside{
+   
+    margin: 10px;
+    
+    
+}
+.leftside{
+    width: 642px;
+    height: 606px;
+    display: flex;
+    background-position: top;
+    background-size: 662px 606px;
+    
+    background-image: url(https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2022-03/chengdu-Hublot-Boutique-Outdoor.jpg?itok=oZv5rCvS);
+}
+.rightside{
+    width: 642px;
+    height: 606px;
+    display: flex;
+    background-position: top;
+    background-size: 662px 606px;
+    background-image: url(https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2022-03/titanium.jpg?itok=xd1oZek3);
+}
+.boxleft{
+    width: 509px;
+    height: 204px;
+    background: #ffffff;
+    position: absolute;
+    left: 89px;
+    top: 2424px;
+    padding-top: 30px;
+
+}
+h4{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 6px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-left: 66px;
+}
+.line{
+    width: 100px;
+    height: 1px;
+    background: red;
+    margin-left: 64px;
+    margin-bottom: 20px;
+    
+}
+.butleft{
+    width: 177px;
+    height: 55px;
+    text-transform: uppercase;
+    border: solid #171717 1px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 64px;
+    margin-top: 18px;
+    font-weight: 700;
+   font-size: 12px;
+   letter-spacing: 2px;
+   position: relative;
+    top: 9px;
+}
+.boutiq{
+    color: #171717;
+    display: inline;
+    font-family: 'Gotham Black';
+    letter-spacing: 2px;
+    line-height: 35px;
+    margin-left: 65px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.boxright{
+    width: 509px;
+    height: 204px;
+    background: #ffffff;
+    position: absolute;
+    top: 2424px;
+    left: 769px;
+    padding-top: 30px;
+
+}
+h3{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 6px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-left: 66px;
+}
+.fifthSection{
+    width: 1349px;
+    height: 963px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+.guyPic{
+    background-image: url(https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2020-10/Samuel-Ross-Hublot-Ambassador-5_2.jpg?itok=0wKhW9Cr);
+    background-size: 1359px 928px;
+    width: 1409px;
+    height: 718px;
+}
+.longBox{
+    width: 1172px;
+    height: 292px;
+    background: #ffffff;
+    padding: 40px 0 0 ;
+    margin: 0px 0px -80px 66.3438px;
+    position: relative;
+    top: 600px;
+    flex-direction: column;
+}
+.sixthSection{
+    width: 1349px;
+    height: 1065px;
+    background: #171717;
+    padding: 70px 0;
+    display: flex;
+    padding-right: 80px;
+}
+.latest{
+    width: 1220px;
+    height: 45px;
+    color: #ffffff;
+    font-family: 'Gotham Black';
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    margin: 0 0 10px;
+    margin-left: 66px;
+    
+}
+.cardGroup{
+    align-items: stretch;
+    color: #171717;
+    width: 1349px;
+    height: 850px;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 16px;
+    margin-top: 100px;
+    margin-left: -1000px;
+    
+}
+.card{
+    width: 390px;
+    height: 850px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 16px;
+    background: #171717;
+    margin: 8px;
+    overflow: hidden;
+    
+}
+.img1{
+    position: relative;
+    
+    left: -125px;
+    top: 92px;
+    width: 600px;
+    height: 389px ;
+   
+    
+
+}
+.cardWords{
+    width: 389px;
+    height: 60px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 25px;
+
+}
+.span1{
+    color: #ffffff;
+    margin-top: 30px;
+    font-family: 'Galaxie Copernicus Book';
+    display: flex;
+    position: relative;
+    top: 15px;
+   
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.span2{
+    color: #ffffff;
+    margin-top: 30px;
+    font-family: 'Galaxie Copernicus Book';
+    display: flex;
+    position: relative;
+    top: 15px;
+   
+    letter-spacing: 2px;
+    font-weight: 500;
+
+}
+.span3{
+    color: #ffffff;
+    margin-top: 30px;
+    font-family: 'Galaxie Copernicus Book';
+    display: flex;
+    position: relative;
+    top: 86px;
+   
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.card a{
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: inline;
+    width: 105px;
+    border-bottom: solid red 1px;
+    position: relative;
+    top: 293px;
+    left: 1px;
+    
+
+}
+.a1{
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: inline;
+    width: 105px;
+    border-bottom: solid red 1px;
+    position: relative;
+    left: 100px;
+    top: 272px;
+
+}
+.learnmore{
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: inline;
+    width: 105px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    
+    text-transform: uppercase;    
+    position: relative;
+    top: 216px;
+    
+
+}
+.img2{
+    position: relative;
+    left: -2px;
+    top: 93px;
+}
+.logo{
+    margin-top: 115px;
+}
+h2{
+    font-size: 12px;
+    position: relative;
+    left: 64px;
+    top: -39px;
+}
+.verify{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 54px;
+    left: 138px;
+}
+.card .insta{
+   
+ width: 170px;
+ height: 15px;
+ display: inline;
+ text-transform: uppercase;
+ position: relative;
+ top: 379px;
+}
+.signup{
+    width: 1349px;
+    height: 321px;
+    background: #262626;
+    color: #ffffff;
+    line-height: 16px;
+    padding: 80px 22px;
+    
+}
+h1{
+    
+    font-size: 40px;
+    font-family: 'Gotham Black';
+    letter-spacing: 2px;
+    line-height: 45px;
+    margin: 0 0px 1px;
+    text-align: left;
+    margin-left: 15%;
+    
+}
+.signup p{
+    font-family: 'Galaxie Copernicus Book';
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 15%;
+}
+.signbtn{
+    width: 190px;
+    height: 54px;
+    font-family:'Gotham';
+    font-weight: 700;
+    border: sold black 1px;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 15%;
+    padding: 16px 15px;
+    background: #ffffff;
+    color: #171717;
+    cursor: pointer;
+}
+.footer{
+    width: 1349px;
+    height: 466px;
+    align-items: center;
+    background: #171717;
+    color: #e6e4e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 16px;
+    padding: 80px 22px 100px;
+}
+.hublogo{
+    position: relative;
+    top: -15px;
+}
+.footer_nav{
+    width: 1253px;
+    height: 24px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    line-height: 16px;
+    margin: 0 0 15px;
+    margin-top: 0px;
+    padding-right: 25px;
+    
+}
+.footer_nav li{
+    width: 150px;
+    height: 24px;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 12px;
+    text-align: center;
+    font-family: 'Gotham';
+    font-weight: bold;
+    margin: 10px;
+    list-style: outside;
+}
+.market{
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin: 0 15px 0 0;
+    text-align: center;
+    font-weight: lighter;
+    position: relative;
+    left: 40px;
+    top: -3px;
+}
